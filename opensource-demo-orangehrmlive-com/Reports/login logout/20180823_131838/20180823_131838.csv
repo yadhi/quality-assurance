@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+login logout,Chrome 68.0.3440.106,,2018-08-23 13:18:41,2018-08-23 13:18:58,16.702s,PASSED
+,,,,,,
+Test Cases/login logout/login,Chrome 68.0.3440.106,"login as 
+username : admin 
+password : admin123",2018-08-23 13:18:41,2018-08-23 13:18:56,14.126s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-08-23 13:18:42,2018-08-23 13:18:51,8.912s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-23 13:18:51,2018-08-23 13:18:51,0.496s,PASSED
+setText,Chrome 68.0.3440.106,,2018-08-23 13:18:51,2018-08-23 13:18:52,0.276s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-23 13:18:52,2018-08-23 13:18:56,3.927s,PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-23 13:18:56,2018-08-23 13:18:56,0.078s,PASSED
+,,,,,,
+Test Cases/login logout/logout,Chrome 68.0.3440.106,logout,2018-08-23 13:18:56,2018-08-23 13:18:58,2.047s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-23 13:18:56,2018-08-23 13:18:56,0.147s,PASSED
+scrollToElement,Chrome 68.0.3440.106,,2018-08-23 13:18:56,2018-08-23 13:18:56,0.095s,PASSED
+click,Chrome 68.0.3440.106,,2018-08-23 13:18:56,2018-08-23 13:18:57,0.712s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-08-23 13:18:57,2018-08-23 13:18:58,0.714s,PASSED

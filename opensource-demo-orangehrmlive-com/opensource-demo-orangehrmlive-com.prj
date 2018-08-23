@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>opensource-demo.orangehrmlive.com</description>
+   <name>opensource-demo-orangehrmlive-com</name>
+   <tag></tag>
+   <UUID>9a2e52bf-324b-43ec-b247-b6dcc1ebc682</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

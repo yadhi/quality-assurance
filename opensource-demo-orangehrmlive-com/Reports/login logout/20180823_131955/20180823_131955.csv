@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+login logout,Firefox 61.0,,2018-08-23 13:19:57,2018-08-23 13:20:23,26.447s,FAILED
+,,,,,,
+Test Cases/login logout/login,Firefox 61.0,"login as 
+username : admin 
+password : admin123",2018-08-23 13:19:57,2018-08-23 13:20:21,23.951s,PASSED
+openBrowser,Firefox 61.0,,2018-08-23 13:19:57,2018-08-23 13:20:17,19.530s,PASSED
+setText,Firefox 61.0,,2018-08-23 13:20:17,2018-08-23 13:20:17,0.278s,PASSED
+setText,Firefox 61.0,,2018-08-23 13:20:17,2018-08-23 13:20:17,0.087s,PASSED
+click,Firefox 61.0,,2018-08-23 13:20:17,2018-08-23 13:20:21,3.589s,PASSED
+verifyElementPresent,Firefox 61.0,,2018-08-23 13:20:21,2018-08-23 13:20:21,0.104s,PASSED
+,,,,,,
+Test Cases/login logout/logout,Firefox 61.0,logout,2018-08-23 13:20:21,2018-08-23 13:20:23,1.543s,FAILED
+click,Firefox 61.0,,2018-08-23 13:20:21,2018-08-23 13:20:22,0.768s,PASSED
+scrollToElement,Firefox 61.0,,2018-08-23 13:20:22,2018-08-23 13:20:22,0.107s,PASSED
+click,Firefox 61.0,,2018-08-23 13:20:22,2018-08-23 13:20:23,0.283s,FAILED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>without create login</description>
+   <name>add employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16d4572a-7db8-4dac-b16e-64cad9632c71</testCaseGuid>
+</TestCaseEntity>

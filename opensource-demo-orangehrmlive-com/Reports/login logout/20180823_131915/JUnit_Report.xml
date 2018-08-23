@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login logout" time="15" tests="0" failures="2" errors="0">
+   <testsuite name="login logout" tests="0" failures="2" errors="0" time="15" timestamp="2018-08-23 13:19:17" hostname="triyadhi - HO-SDM-NB23.pnmgroup.co.id" id="Test Suites/login logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\development\\github\\yadhi\\quality-assurance\\opensource-demo-orangehrmlive-com\\Reports\\login logout\\20180823_131915"/>
+         <property name="logFiles" value="F:\\development\\github\\yadhi\\quality-assurance\\opensource-demo-orangehrmlive-com\\Reports\\login logout\\20180823_131915\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="triyadhi - HO-SDM-NB23.pnmgroup.co.id"/>
+         <property name="hostAddress" value="10.50.6.86"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+      </properties>
+      <testcase name="Test Cases/login logout/login" classname="Test Cases/login logout/login" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/' (Root cause: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)"/>
+         <system-out><![CDATA[2018-08-23 13:19:18 - [TEST_CASE][FAILED] - Test Cases/login logout/login: Test Cases/login logout/login FAILED because (of) Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/' (Root cause: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)
+
+2018-08-23 13:19:18 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/' (Root cause: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)
+
+2018-08-23 13:19:32 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/' (Root cause: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)]]></system-out>
+         <system-err><![CDATA[2018-08-23 13:19:18 - [TEST_CASE][FAILED] - Test Cases/login logout/login: Test Cases/login logout/login FAILED because (of) Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/' (Root cause: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login logout/logout" classname="Test Cases/login logout/logout" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/login logout/Page_OrangeHRM/a_Welcome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-08-23 13:19:32 - [TEST_CASE][FAILED] - Test Cases/login logout/logout: Test Cases/login logout/logout FAILED because (of) Unable to click on object 'Object Repository/login logout/Page_OrangeHRM/a_Welcome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-08-23 13:19:33 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/login logout/Page_OrangeHRM/a_Welcome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-08-23 13:19:33 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-08-23 13:19:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/login logout/Page_OrangeHRM/a_Welcome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-08-23 13:19:32 - [TEST_CASE][FAILED] - Test Cases/login logout/logout: Test Cases/login logout/logout FAILED because (of) Unable to click on object 'Object Repository/login logout/Page_OrangeHRM/a_Welcome' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-23 13:19:17 - [TEST_SUITE][FAILED] - login logout: Test Cases/login logout/login FAILED because (of) Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/' (Root cause: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)]]></system-out>
+      <system-err><![CDATA[2018-08-23 13:19:17 - [TEST_SUITE][FAILED] - login logout: Test Cases/login logout/login FAILED because (of) Unable to open browser with url: 'https://opensource-demo.orangehrmlive.com/' (Root cause: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HO-SDM-NB23', ip: '10.50.6.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)]]></system-err>
+   </testsuite>
+</testsuites>
